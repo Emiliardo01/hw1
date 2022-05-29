@@ -1,0 +1,426 @@
+main {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    
+
+
+
+  }
+
+  body {
+
+    background-image: url("https://wallpaperaccess.com/full/767033.jpg");
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+  }
+  
+  label {
+  
+    margin: 5px 0 5px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: white;
+
+  }
+  
+  @media (max-width: 840px){
+
+
+    footer{
+
+        margin-top: 0;
+        font-size: 15px;
+    
+    
+    }
+
+
+}
+
+  input {
+    margin-left: 8px;
+    width: 25vw;
+    height: 4vh;
+
+
+  }
+
+div  {
+
+    display: flex;
+    justify-content: center;
+
+}
+div  a{
+
+    font-size: 20px;
+
+}
+h1 {
+
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    margin-top: -2px;
+    font-size: 22px;
+
+
+}
+
+@media (max-width: 840px){
+
+    h1 {
+
+        font-size: 20px;
+
+    }
+
+
+}
+
+input[type="text"]{
+
+    font-size: 20px;
+    margin-left: 2%;
+
+
+}
+
+
+@media (max-width: 840px){
+
+
+    input[type="text"]{
+
+        width: 60%;
+    
+    
+    }
+
+
+}
+
+input[type="password"]{
+
+    font-size: 20px;
+    margin-left: 2%;
+
+
+}
+
+@media (max-width: 840px){
+
+
+    input[type="password"]{
+
+        width: 60%;
+    
+    
+    }
+
+
+}
+input[type="submit"]{
+
+    width: 25.5vw;
+    height: 4vh;
+    margin-left: -7%;
+
+}
+
+@media (max-width: 840px){
+
+
+    input#cognome{
+
+        width: 59.5%;
+        
+    
+    }
+
+
+}
+@media (max-width: 840px){
+
+
+    input#email{
+
+        margin-left: 9.5%;
+        width: 57%;
+        
+    
+    }
+
+
+}
+
+
+@media (max-width: 840px){
+
+
+    input#pw{
+
+        width: 55%;
+        
+    
+    }
+
+
+}
+
+
+@media (max-width: 840px){
+
+
+    input#nome{
+
+        margin-left: 13%;
+        
+    
+    }
+
+
+}
+
+@media (max-width: 840px){
+
+
+    input#username{
+
+        margin-left: -0.3%;
+        width: 55%;
+        
+        
+    
+    }
+
+
+}
+input[type="radio"]{
+
+    height: 20px;
+    width: 20px;
+
+
+}
+
+#radio{
+
+
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+
+ 
+  
+    
+
+}
+
+
+
+
+p {
+
+ text-align: center;
+ margin-top: 20px;
+ color: white;
+
+}
+#overlay {
+    /*faccio questo per fare vedere la scritta*/
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+a{
+
+    color: white;
+    text-align: center;
+    
+
+}
+
+.hidden {
+
+    display: none;
+
+
+}
+
+#errore {
+
+    color: white;
+    font-size: 17px;
+    max-width: 890px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -20px;
+  
+  
+
+
+
+
+}
+
+@media(max-width: 840px){
+
+    #errore{
+
+        font-size: 10px;
+        max-width: 280px;
+
+
+    }
+
+
+}
+
+a {
+
+    margin-top: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+
+
+}
+
+a:hover {
+
+    background-color: white;
+    color: black;
+    border: 4px solid white;
+}
+
+
+form {
+
+    background-color: rgba(131, 15, 15, 0.66);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2% 0% 3% 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 68vh;
+    margin-top: 14px;
+
+
+
+
+}
+
+
+@media (max-width: 840px){
+
+    form {
+
+        width: 300px;
+
+    }
+
+
+}
+
+p#radio{
+
+    margin-right: 13%;
+
+}
+
+#warninge{
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+    color: white;
+}
+
+
+
+#warningu{
+
+    display: flex;
+    flex-direction: column;
+   color: white;
+
+}
+
+#divnom{
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 7%;
+    color: white;
+
+}
+
+#divcogn{
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 7%;
+    color: white;
+
+}
+
+footer{
+
+    margin-top: 60px;
+
+}
+
+@media (max-width: 840px){
+
+
+    footer{
+
+        margin-top: 0;
+        font-size: 12px;
+    
+    
+    }
+
+
+}
+
+p.errore{
+
+
+    font-size: 15px;
+    margin-bottom: -10px;
+
+}
+
+p.successo {
+
+    font-size: 35px;
+
+}
